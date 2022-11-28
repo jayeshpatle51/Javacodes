@@ -1,0 +1,231 @@
+All java Programs we have discussed in meeting:
+
+•	Jayesh Patle
+
+a)	Program on missing nos.
+
+public static void printMissingnos(int arr[],int start) {
+
+		Arrays.sort(arr);
+		int len=arr.length;
+
+
+		for(int i=0;i<len-1;i++) {
+
+			while(start<arr[i+1]) {
+				if(start!=arr[i]) {
+					System.out.print(start+" ");
+				}
+				start++;
+			}
+		}
+	}
+
+b)	Program on with one loop
+
+public void printMissingnowithoneloop(int arr[]) {
+		Arrays.sort(arr);
+        int min=arr[0];
+        int max=arr[arr.length-1];
+        int k=0;
+        
+        for(int i=min;i<max;i++)
+        {
+            int currentValue=arr[k];
+            if(currentValue==i) {
+            	k++;
+            }
+               
+            else {
+                System.out.print(i+" ");
+            }
+           
+        }
+	}
+
+c)	Program on signwave
+
+public static void signwave(int limit) {
+		
+		int start1=limit-1;
+		int end=limit;
+		int start2=limit*4-1;
+		for(int i=0;i<limit*2;i++) {
+			
+			for(int j=0;j<limit*4;j++) {
+				
+				if(j==start1){
+					System.out.print("/");
+				}else if(j==end) {
+					System.out.print("\\");
+				}else if(i>=limit && j==start2){
+					System.out.print("/");
+					start2--;
+				}else {
+					System.out.print("-");
+				}
+				
+				
+			}
+			start1--;
+			
+			end++;
+			
+			
+			System.out.println();
+		}
+	}
+
+•	Suresh 
+
+a)	Program on SignWave
+
+public class SineWave {
+
+	public static void main(String[] args) {
+		int h = 7;
+		int l = 7;
+		int x = l*h*4;
+		int y = h*2;
+		
+		
+		for(int i=0; i<y; i++){
+			for(int j=0;j<x;j++){
+				if((i+j)%(l*4)==h-1)         //i+j=n-1
+					System.out.print("/");
+				else if(i+h==(j%(l*4)))      //i=j
+					System.out.print("\\");
+				else
+					System.out.print("*");
+			}
+			System.out.println();
+		}		
+			
+	}
+}
+
+b)	Program on quotient and Remainder
+
+public class FindDiv {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int divident = 69;
+		int divider = 7;
+		int quat=0, rem=0;
+
+		// using for loop
+		for(int i=divider; i<=divident; i+=divider){
+			quat++;
+			rem = divident-i;
+		}
+		System.out.println("reminder = " + rem);
+		System.out.println("quat = " + quat);
+		
+	}
+
+}
+
+•	Kavitha
+
+a)	Program on Quotient and Remainder
+
+static String Divide(int D, int E){
+    int R = D;
+    int Q = 0;
+
+    while(R >= E)
+    {
+      R = R - E;
+      Q = Q + 1;        
+
+    }  
+    return Q+" "+R;
+}
+
+b)	Program on Missing numbers
+
+public static void print() {
+		        
+		        int arr[] = {12,1,6,5};
+		        Arrays.sort(arr);
+		        int min=arr[0];
+		        int max=arr[arr.length-1];
+		        int k=0;
+		        
+		        for(int i=min;i<=max;i++)
+		        {
+		            int currValue=arr[k];
+		            if(currValue==i)
+		                k++;
+		            else
+		                System.out.print(i+" ");
+		        }
+		    }
+		public static void  MissingElements(int[] arr, int N) {
+		        Arrays.sort(arr);
+		        int diff = arr[0] - 0;
+		         
+		        for(int i = 0; i < N; i++)
+		        {
+		            if (arr[i] - i != diff)
+		            {
+		                while (diff < arr[i] - i)
+		                {
+		                    System.out.print((i + diff) + " ");
+		                    diff++;
+		                }
+		            }
+		        }
+		    }
+
+•	YashMant
+
+a)	SignWave With star Pattern
+int h=9;
+        int l=(h*2)-1;
+        for(int i=0;i<=h;i++)
+        {
+            for(int j=0;j<=l;j++)
+            {
+                //int a=(l+h)-((l-1)/4;
+                if((l+h)-((l-1)/4)==i+j || (l-h)/2==j-i || h-5==i+j)    
+                System.out.print("*");
+                else
+                    System.out.print(" ");
+            }
+            System.out.println();
+        }
+
+b)	Program on Quotient and Remainder
+
+int a=15,b=5, c;
+              int result=0;   
+              c=a+b;
+              while(c>b)
+              {
+                  c=c-b;
+                  result++;
+              }
+              System.out.println(result);
+              int reminder=(result*b)-a;
+              System.out.println(reminder);
+
+•	Kathik 
+
+a)	Program on Quotient and Remainder Using for loop
+
+            int divident=69;
+		int divider=7;
+		int quot=0, rem=0;
+		
+		for(int i=divider;i<=divident;i+=divider) {
+			quot++;
+			rem=divident-i;
+			
+		}
+
+
+		
+		System.out.print("remainder = "+rem+" , quot = "+quot);

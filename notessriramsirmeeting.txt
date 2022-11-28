@@ -1,0 +1,3 @@
+*main file to pull from github src,pom.xml, log4j.properties
+inside src folder also we can store log4j.properties file
+*Super User in module means nothing but admin

@@ -1,0 +1,9 @@
+getting x path of different elements using DOM in different ways:
+1)by anchor element text.
+//a[text()='Register ']
+2)by using two properties with and.
+//input[@type='email' and @name='email']
+3) by using two properties with or.
+//input[@type='email' or @name='email'] 
+4)using contains.
+//a[contains(text(),'Register ')]

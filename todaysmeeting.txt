@@ -1,0 +1,40 @@
+Hello Sir,
+
+Below is the overview of the today's stand up meet:
+
+
+•	kavitha 
+ ankita katalon creating script, selenium programs,
+
+•	Devi worked on katalon ios , arraylist and array programs.
+
+•	Venkatesh k testng listenter, reporsts and java inheritance and oops programs.
+
+•	Jayesh worked on pattern program on signwave, Creating costomized xpath, java interview questions
+
+•	Venkata ramana worked on mobile testing with katalon, interview questions on java.
+
+•	Yeshmant worked on java programs on pattern, numbers programs.
+
+•	Jana worked on programs on list and gone through katalon tutorials.
+
+•	Gopi worked on missing no program, katalon videos on youtube.
+
+•     Debarati gone through interview questions, java programs on string and collections.
+    
+•     Rudraboina apache poi working with excel,automation interview questions, java programs.
+
+•     Shrikar worked on dropdown and dragdrop in katalon, gone through interview questions.
+
+•     kavita worked on java programs and interview questions on selenium.
+
+•     Vashant  gone thorugh collections programs ,missing no and signwave programs.
+ 
+•     Suresh window handles program in selenium, Signwave programs.
+ 
+    After meeting we have discussed on programs of signwave, 
+      remainder and quotient with different approaches.
+
+Thanks and regards,
+Jayesh Patle
+

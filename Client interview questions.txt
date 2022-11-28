@@ -1,0 +1,29 @@
+1)Introduction and about family background?
+2) Which functionality tested in project?
+3) which framework used in project?
+4)what are testng annotations use.
+5)explain about cucumber framework.
+6)practical use of constructor.
+7)window handling in selenium.
+8)static keyword in java.
+9)what is interface and its use and abstract class use.
+9)what is output of following java programs.
+  1.String s="abc";
+    s.concat();
+ System.out.println(s);
+   s=s.concat();
+System.out.println(s);
+  10)programs on inheritance
+ class A{
+void m1(){};
+}
+class B extnds A{
+void m1(){}
+}
+class c extends B
+{
+public static void main(String[] args){
+       A a=new B();
+       a.m1();
+}
+}

@@ -1,0 +1,16 @@
+* first I will take all the columns in seperate list by column name.
+*then i will create one another list.
+*i will copy change column list to that new list name sortedlist.
+*Then i will sort that list.
+*Then i will reverse that list.
+*Then i will create one for loop and again create second for loop
+in first for loop.
+*create one condition boolean equal to false.
+*then int index =0.
+*Then using if condition if sortedlist.get(i)==list1.get(i)
+then i will make index is equals j.
+condition true.
+break.
+*if condition true
+then i will print (sortedlist.get(i)+list2.get(index)+list3.get(index));
+
